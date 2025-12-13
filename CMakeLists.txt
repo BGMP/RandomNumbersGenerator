@@ -12,7 +12,7 @@ endif()
 project ("RandomNumbersGenerator")
 
 # Add source to this project's executable.
-add_executable (RandomNumbersGenerator "RandomNumbersGenerator.cpp" "RandomNumbersGenerator.h")
+add_executable (RandomNumbersGenerator "src/RandomNumbersGenerator.cpp" "include/RandomNumbersGenerator.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET RandomNumbersGenerator PROPERTY CXX_STANDARD 20)
